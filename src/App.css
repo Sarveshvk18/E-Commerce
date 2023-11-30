@@ -1,0 +1,333 @@
+.App
+{
+font-family: 'Times New Roman', Times, serif;
+/* background-image: linear-gradient(to bottom right #008000, #98fb98); */
+font-size: larger;
+}
+
+.Head {
+  /* background-color: #32de84; */
+  background-color: #00c4cc;
+  /* background-image: url(bp.jpeg); */
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  /* border-top: 2px solid #333; */
+  border-bottom: 2px solid #333;
+  position: sticky;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.search-box {
+  padding: 10px; /* Increase padding to make it bigger */
+  font-size: 16px; /* Increase font size for text */
+  border: 2px solid #333; /* Add a border */
+  border-radius: 20px; /* Add rounded corners */
+  margin-right: 20px;
+}
+
+.search-button {
+  padding: 10px 20px; /* Adjust padding to make the button bigger */
+  font-size: 16px; /* Increase font size for the button text */
+  background-color: #333; /* Set background color to a classic color */
+  color: white; /* Set text color to white */
+  border: none; /* Remove button border */
+  border-radius: 20px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+.logo img {
+  max-width: 50px;
+  height: auto;
+}
+.text img {
+  max-width: 150px;
+  height: auto;
+}
+.titlelogo img {
+  max-width: 100px;
+  height: auto;
+}
+.cart
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cart img {
+  max-width: 30px;
+  height: auto;
+  margin-left: 30px;
+}
+.Navbar {
+  background-color: white;
+  color: #262525;
+  text-align: center;
+  /* padding: 10px; */
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  top: 0;
+  position: sticky;
+  border-bottom: 2px solid #333;
+}
+.Navbar button
+{
+  font-size: large;
+  margin-right: 25px;
+  background-color: white;
+  /* background:none;  */
+  font-weight:600;
+  border:none;  
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+.Navbar button:hover
+{
+  font-size: large;
+  margin-right: 25px;
+  background-color: #00c4cc;
+  color: white;
+  /* background:none;  */
+  border:none;  
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+.cartLink {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.totalQuantity {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  background-color: #00c4cc; /* or any background color you prefer */
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+#mainad
+{
+  display: flex;
+  justify-content: left;
+}
+  .Sidebar {
+    background-color: #d3d4d9;
+    color: black;
+    
+    float: left;
+    width: 20%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: auto;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+  }
+  
+  #margin {
+    margin: 40px;
+  }
+  
+  /* Add some space between the sorting options and category filters */
+  .Sidebar > div {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the sorting options */
+  .Sidebar select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the category filters */
+  .Sidebar label {
+    margin-left: 8px;
+  }
+
+
+.Main {
+  
+  color: black;
+  background-color: #eff1f3;
+  text-align: center;
+  float: right;
+  width: 80%;
+  height: 100%;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border-right: 2px solid #333;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.margin
+{
+margin: 20px;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.Card
+{
+  margin: 27.5px;
+  /* margin-right: 40px; */
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  /* border: 2px solid #333; */
+  
+}
+.Card:hover
+{
+  border: 2px solid #333;
+}
+/* #qty
+{
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#qty input
+{
+  width: 30px;
+  margin: 10px;
+}
+#qty button
+{
+  width: 30px;
+  margin: 10px;
+} */
+.Card #button
+{
+  /* width: 30px; */
+  /* margin: 10px; */
+  height: 35px;
+  width: 100px;
+  background-color: #00c4cc;
+  border-radius: 5px;
+  margin-top: auto;
+  font-weight: 600;
+  border: none;
+}
+.Card #button:hover
+{
+  border: 2px solid #333;
+}
+#leave{
+  background:none; 
+  border:none;     
+  font-size:smaller;
+}
+
+#product
+{
+  width: 150px;
+  height: auto;
+}
+.alert {
+  background-color: #f44336;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.Foot {
+  background-color: #303030;
+  border-top: 2px solid #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+  /* bottom: 0; */
+  /* position: sticky; */
+}
+/* Cart.css */
+.Cart {
+  background-color: #fff;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 83.5vh;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.cart-table th {
+  font-size: 18px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none; /* Remove border for the last cart item */
+}
+.Cart p
+{
+text-align: center;
+font-size:large;
+}
+
+/* MessagePortal.css */
+.global-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: 500;
+  background-color: black; /* Green background color */
+  color: #00c4cc;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.global-message.show {
+  transform: translateY(0);
+}

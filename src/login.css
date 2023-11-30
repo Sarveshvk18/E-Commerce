@@ -1,0 +1,85 @@
+#login
+{
+  background-color: #00c4cc;
+  background-image: linear-gradient(to bottom right, #00c4cc, #fff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  
+}
+
+  #myVideo
+  {
+width: 100px;
+  }
+  .login-container {
+  
+    /* margin: 140px 630px; */
+    width: 400px;
+    padding: 40px;
+    /* background-image: linear-gradient(to bottom right, #fff, #000); */
+    background-color: #232323;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #000;
+    
+  }
+  
+  .login-container .app-title {
+    color: #00c4cc;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-container fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .login-container form label {
+    margin-bottom: 12px;
+    color: #ffffff;
+  }
+  
+  .login-container form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  .error-message
+  {
+    color: red;
+    font-size:smaller;
+  }
+  .login-container form button {
+    background-color: #00c4cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container .toggle-button {
+    margin-top: 20px;
+    color: #00c4cc;
+    cursor: pointer;
+    background-color: #333;
+  }
+  
+  .login-container .toggle-button:hover {
+    text-decoration: underline;
+  }
+  
